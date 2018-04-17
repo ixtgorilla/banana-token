@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  ethereum-node:
+    build: docker/ethereum/client-go
+    ports:
+      - 8545:8545
+      - 30303:30303
